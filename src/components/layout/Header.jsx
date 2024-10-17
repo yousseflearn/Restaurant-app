@@ -4,7 +4,7 @@ export default function Header() {
     <>
       <header className="flex items-center justify-between">
         <Link href="" className="text-primary font-semibold text-2xl">
-          DeerIT Restaurant
+          DeerIT
         </Link>
         <nav className="flex gap-8 items-center text-gray-500 font-semibold ">
           <Link href={''}>Home</Link>

@@ -3,7 +3,7 @@ import Right from '../icons/Right';
 export default function Hero() {
   return (
     <section className="hero">
-      <div>
+      <div className="py-12">
         <h1 className="text-4xl font-semibold">
           Everything <br /> is better <br />
           with our&nbsp;
@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative py-12">
         <Image
           src={'/pizza.png'}
           alt={'pizza'}
